@@ -2,7 +2,7 @@ import ballerina/io;
 import ballerinax/trigger.google.sheets;
 
 configurable sheets:ListenerConfig userInput = {
-    spreadsheetId: "15qrJiLi1PmB_rYnSWwnUbA3STcMfR270y0HkVG-ElVA"
+    spreadsheetId: "1dWkkMnG74yvAxetvwcgWtovBne-UfmdwiIJKvjnONSk"
 };
 
 listener sheets:Listener sheetListener = new (userInput);
